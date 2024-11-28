@@ -7,7 +7,7 @@ contract PaymentProcessor {
     event PaymentProcessed(address indexed sender, address indexed receiver, uint256 amount);
 
     constructor() {
-        owner = msg.sender; // Set the deployer as the owner of the contract
+        owner = msg.sender; 
     }
 
     /**
@@ -20,7 +20,7 @@ contract PaymentProcessor {
         require(amount > 0, "Amount must be greater than zero");
         require(msg.value >= amount, "Insufficient funds sent");
 
-        // Send the funds to the recipient
+        
         payable(to).transfer(amount);
 
         emit PaymentProcessed(msg.sender, to, amount);
