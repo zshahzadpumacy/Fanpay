@@ -12,3 +12,5 @@ We will also add signature functionality for verification during the course of o
 
 ### Owner Withdrawals:
 The contract owner can withdraw any remaining balance using the withdraw function.
+
+![Fanpay Architecture](https://github.com/zshahzadpumacy/Fanpay/blob/main/Images/Fanpay%20Architecture.png)
