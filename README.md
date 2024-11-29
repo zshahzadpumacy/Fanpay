@@ -10,10 +10,14 @@ We will also add signature functionality for verification during the course of o
 - Users interact with the processPayment function, passing the recipient address and the payment amount.
 - All successful transactions are logged through the PaymentProcessed event, providing transparency.
 
-### Owner Withdrawals:
+### Owner Withdrawals
 The contract owner can withdraw any remaining balance using the withdraw function.
 
 ![Fanpay Architecture](https://github.com/zshahzadpumacy/Fanpay/blob/main/Images/Fanpay%20Architecture.png)
 
+## Fanpay Application
+Our plan is to build the FanPay application by modifying the Grail app source code we developed during Wave 4. FanPay will allow users to store XRP/RLUSD in a virtual card, which can then be used for payments at shops in sporting events. Users will generate a QR code for payment, which can be scanned by an Ingenico terminal to complete the transaction.
+The Ingenico terminal will be connected to our Redimi API, which communicates with the EVM sidechain on XRPL to process the transaction and return the response to the terminal. Users will receive reward tokens against the transactions they make in the form of reward
+tokens that are mined on XRPL. Following are some Grail App screenshots:
 
 
