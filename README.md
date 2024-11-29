@@ -20,4 +20,6 @@ Our plan is to build the FanPay application by modifying the Grail app source co
 The Ingenico terminal will be connected to our Redimi API, which communicates with the EVM sidechain on XRPL to process the transaction and return the response to the terminal. Users will receive reward tokens against the transactions they make in the form of reward
 tokens that are mined on XRPL. Following are some Grail App screenshots:
 
+![Grail Screenshots](https://github.com/zshahzadpumacy/Fanpay/blob/main/Images/Combined.png)
+
 
